@@ -141,8 +141,8 @@ class Bot():
                 sleep(2)
 
 
-'''Bot.abrir_web('https://www.instagram.com/accounts/login/?source=auth_switcher')'''
-'''Bot.login(usuario='',senha='') # somente nome, sem email ou numero
+Bot.abrir_web('https://www.instagram.com/accounts/login/?source=auth_switcher')
+Bot.login(usuario='',senha='') # somente nome, sem email ou numero
 Bot.info_login() # salvar informacoes de login no navegador ? se nao aparecer a pergunta no site, pode desconsiderar esta funcao
-Bot.pesquisar_perfil(perfil='')''' # selecionar perfil
-Bot.curtir_comentar_3_em_3(quantidade=1) # selecionar quantidade de vezes para repetir (apenas numeros inteiros)
+Bot.pesquisar_perfil(perfil='') # selecionar perfil
+Bot.curtir_comentar_3_em_3(quantidade='') # selecionar quantidade de vezes para repetir (apenas numeros inteiros)
